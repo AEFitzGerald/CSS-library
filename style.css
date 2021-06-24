@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-size: 16px;
+}
+
+body {
+    background-color: #404040;
+    color: #fff2e6;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+}
+
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.col {
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(56,56,56,0.7);
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 50px 50px;
+    overflow: hidden;
+    width: 40%;
+    transition: width 2s;
+}
+
+.col:hover {
+    width: 43%;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.row-1 {
+    background-color:#606060;
+    padding: 15px;
+}
+
+.row-1 h1 {
+    padding-left: 20px;
+}
+
+.row-2 {
+    background-color:#888888;
+}
+
+.row-3 {
+    align-items: center;
+    background-color:#D3D3D3;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#winter {
+    color: #99e6ff;
+}
+
+#spring {
+    color:#99ffcc;
+}
+
+#summer {
+    color:#ffff99;
+}
+
+#fall {
+    color: #ff9999;
+}
+
+.btn    {
+    align-items: center;
+    border-radius: 50%;
+    background-image: radial-gradient(#ff6600,#ffb380);
+    color:  #fff2e6;
+    display: flex;
+    font-size: 3em;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
